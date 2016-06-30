@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>facebook</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+	<div id="page-layout">
+        <div class="header"> 
+          <div class="header-class">
+              <img src="images\fb-logo.png" alt="">
+          </div>
+                <div id="login">
+                    <div class="header-class">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                  <lable class="lable">Email or Phone</lable>  
+                                </td>
+                                <td>
+                                    <lable class="lable">Password</lable>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" name="email" id="header-class" />
+                                </td>
+                                <td>
+                                    <input type="password" name="psw" id="header-class" />
+                                </td>
+								<td id="login-cell">
+                                    
+									<input type="submit" value="Log In" id="login-btn" />
+                                    <label class="login-btn"></label>
+								</td>
+                            </tr>
+                            <tr>
+                                <td class="login-btm">
+                                 <input type="checkbox"/>
+								 Keep me logged in   
+                                </td>
+                                <td class="login-btm">
+                                    <a href="#">Forgotten account?</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    </div>
+           </div>
+        </div>
+            <div class="section">
+                
+                
+                <div class="section2">
+                    <div class="section2-heading">
+                        <p id="sec2-heading">Sign Up</p>
+                        <p id="sec2-statement">It's free and always will be.</p>
+                    </div>
+					<input type="text" name="fname" placeholder="First Name" class="sec2-ui" /> 
+						<br>
+					<input type="text" name="lname" placeholder="Last Name" class="sec2-ui" />
+						<br>
+					<input type="Email" name="Email" placeholder="Email or mobile number" class="sec2-ui" />
+						<br>
+					<input type="text" name="Email" placeholder="Re-enter email or mobile number" class="sec2-ui" />
+						<br>
+					<input type="text" name="psw" placeholder="Password" class="sec2-ui" />
+				<!--Date of Birth Selector-->
+						<div class="dob">
+							<h2 id="dob-heading"> Birthday</h2>
+							<span>
+							  <select name="birthday" id="day">
+								  <option value="0" selection="1">Day</option>
+								  <option value="1">1</option>
+								  <option value="2">2</option>
+								  <option value="3">3</option>
+								  <option value="4">4</option>
+								  <option value="5">5</option>
+								  <option value="6">6</option>
+								  <option value="7">7</option>
+								  <option value="8">8</option>
+								  <option value="9">9</option>
+								  <option value="10">10</option>
+								  <option value="11">11</option>
+								  <option value="12">12</option>
+								  <option value="13">13</option>
+								  <option value="14">14</option>
+								  <option value="15">15</option>
+								  <option value="16">16</option>
+								  <option value="17">17</option>
+								  <option value="18">18</option>
+								  <option value="19">19</option>
+								  <option value="20">20</option>
+								  <option value="21">21</option>
+								  <option value="22">22</option>
+								  <option value="23">23</option>
+								  <option value="24">24</option>
+								  <option value="25">25</option>
+								  <option value="26">26</option>
+								  <option value="27">27</option>
+								  <option value="28">28</option>
+								  <option value="29">29</option>
+								  <option value="30">30</option>
+								  <option value="31">31</option>
+								  <option value="14">14</option>
+								  <option value="15">15</option>
+								  <option value="16">16</option>
+								  <option value="17">17</option>
+								  <option value="18">18</option>
+							  </select>
+							  <select name="birthday_month" id="month">
+								  <option value="0" selected="1">Month</option>
+								  <option value="1">Jan</option>
+								  <option value="2">Feb</option>
+								  <option value="3">Mar</option>
+								  <option value="4">Apr</option>
+								  <option value="5">May</option>
+								  <option value="6">Jun</option>
+								  <option value="7">Jul</option>
+								  <option value="8">Aug</option>
+								  <option value="9">Sep</option>
+								  <option value="10">Oct</option>
+								  <option value="11">Nov</option>
+								  <option value="12">Dec</option>
+								  
+							  </select>
+
+							  <select name="birth_year" id="year">
+								  <option value="0" selected="1">Year</option>
+								  <option value="2016">2016</option>
+								  <option value="2015">2015</option>
+								  <option value="2014">2014</option>
+								  <option value="2013">2013</option>
+								  <option value="2012">2012</option>
+								  <option value="2011">2011</option>
+								  <option value="2010">2010</option>
+								  <option value="2009">2009</option>
+								  <option value="2008">2008</option>
+								  <option value="2007">2007</option>
+								  <option value="2005">2006</option>
+								  <option value="2005">2005</option>
+								  <option value="2004">2004</option>
+								  <option value="2003">2003</option>
+								  <option value="2012">2002</option>
+								  <option value="2001">2001</option>
+								  <option value="2000">2000</option>
+							  </select>
+							</span>
+							
+								<span id="y-do-i">		
+									<a href="#" class="ydoneeddob">Why do I need to provide my date of birth?</a>
+								</span>
+						</div>
+							
+				  <div id="sec2-radio">
+					  <span id="radio-btn1">
+						  <input type="radio" name="sex" value="1" />
+						  <lable class="gen-class">Female</lable>
+					  </span>
+					  <span id="radio-btn2">
+						  <input type="radio" name="sex" value="2" />
+						  <lable class="gen-class">Male</lable>
+					  </span>
+				  </div>
+					  <div sec2-para>
+						  <p class="ui-bottom">By clicking Create an account, you agree to our
+							<a href="#" class="ui-bottom1">Terms</a>
+							and that <br> you have read out
+							<a href="#" class="ui-bottom1">Data Policy</a>
+							, including out
+							<a href="#" class="ui-bottom1">Cookie Use</a>.
+							
+						  </p>
+					  </div>
+						  <div id="ui-btn">
+							  <input type="submit" value="Create an account" class="ui-btn" /> 
+						  </div>
+                    <div class="content-bottom">
+					<hr>
+                        <a href="#" class="content-bottom1">Create a Page</a>
+                         for a celebrity, band or business.
+                    </div>
+
+				</div>
+            </div>
+        <div class="footer">
+            <ul>
+				<li>
+				English (UK)
+				</li>
+				<li>
+					<a dir="rtl" href="https://ur-pk.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ur_PK&quot;, &quot;en_GB&quot;, &quot;https:\/\/ur-pk.facebook.com\/&quot;, &quot;www_list_selector&quot;, 0); return false;" title="Urdu">اردو</a>
+				</li>                  
+				<li>
+					<a dir="rtl" href="https://ps-af.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ps_AF&quot;, &quot;en_GB&quot;, &quot;https:\/\/ps-af.facebook.com\/&quot;, &quot;www_list_selector&quot;, 1); return false;" title="Pashto">پښتو</a>
+				</li>  
+				<li>
+					<a dir="rtl" href="https://ar-ar.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ar_AR&quot;, &quot;en_GB&quot;, &quot;https:\/\/ar-ar.facebook.com\/&quot;, &quot;www_list_selector&quot;, 2); return false;" title="Arabic">العربية</a>
+				</li> 
+				<li>
+					<a dir="ltr" href="https://hi-in.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;hi_IN&quot;, &quot;en_GB&quot;, &quot;https:\/\/hi-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 3); return false;" title="Hindi">हिन्दी</a>
+				</li>  
+				<li>
+					<a dir="ltr" href="https://bn-in.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;bn_IN&quot;, &quot;en_GB&quot;, &quot;https:\/\/bn-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 4); return false;" title="Bengali">বাংলা</a>
+				</li>
+				<li>
+					<a dir="ltr" href="https://pa-in.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pa_IN&quot;, &quot;en_GB&quot;, &quot;https:\/\/pa-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 5); return false;" title="Punjabi">ਪੰਜਾਬੀ</a>
+				</li>
+				<li>
+					<a dir="rtl" href="https://fa-ir.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fa_IR&quot;, &quot;en_GB&quot;, &quot;https:\/\/fa-ir.facebook.com\/&quot;, &quot;www_list_selector&quot;, 6); return false;" title="Persian">فارسی</a>
+				</li>
+				<li>
+					<a dir="ltr" href="https://gu-in.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;gu_IN&quot;, &quot;en_GB&quot;, &quot;https:\/\/gu-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 7); return false;" title="Gujarati">ગુજરાતી</a>
+				</li>
+				<li>
+					<a dir="ltr" href="https://de-de.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_GB&quot;, &quot;https:\/\/de-de.facebook.com\/&quot;, &quot;www_list_selector&quot;, 8); return false;" title="German">Deutsch</a>
+				</li>
+				<li>
+					<a dir="ltr" href="https://es-la.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_GB&quot;, &quot;https:\/\/es-la.facebook.com\/&quot;, &quot;www_list_selector&quot;, 9); return false;" title="Spanish">Español</a>
+				</li>
+				<li>
+					<a dir="ltr" href="https://es-la.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_GB&quot;, &quot;https:\/\/es-la.facebook.com\/&quot;, &quot;www_list_selector&quot;, 9); return false;" title="Spanish">Español</a>
+				</li>
+			</ul>
+				<hr id="footer-line">    
+        </div>
+		<p id="copy-ryt">&copy; Facebook 2016</p>
+		
+	</div>	
+</body>
+</html>
